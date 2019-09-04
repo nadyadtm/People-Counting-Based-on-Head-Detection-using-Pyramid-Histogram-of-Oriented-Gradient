@@ -5,4 +5,16 @@ Perhitungan jumlah manusia merupakan sebuah implementasi dari ilmu computer visi
 2. Skema Testing : File tersebut berisi code untuk menjalankan proses testing, yait menguji sistem dalam mendeteksi kepala
 3. PeopleCountGUI.fig : File tersebut merupakan aplikasi dalam bentuk GUI yang digunakan untuk menghitung manusia.
 
-Untuk skema training itu sendiri terdiri dari beberapa tahap yang diperlihatkan pada 
+Untuk skema training itu sendiri terdiri dari beberapa tahap, yaitu
+1. Input Dataset 
+Dataset terdiri dari dua kelas, yaitu kelas positif (kepala) dan kelas negatif (non-kepala)
+2. Preprocessing
+Preprocessing yang digunakan adalah konversi RGB ke grayscale dan resize sebesar 32 x 40
+3. Ekstraksi Ciri/Fitur
+Ekstraksi Ciri/Fitur yang digunakan adalah PHOG (Pyramid Histogram of Oriented Gradient, yaitu mengambil fitur HOG berdasarkan kedalaman level
+4. Klasifikasi
+Klasifikasi yang digunakan adalah SVM (Support Vector Machine)
+
+Untuk skema testing itu sendiri terdiri dari beberapa tahap, yaitu
+1. Input Video
+Video yang diinputkan 
