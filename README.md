@@ -17,10 +17,11 @@ Untuk skema training itu sendiri terdiri dari beberapa tahap, yaitu
 
 Untuk skema testing itu sendiri terdiri dari beberapa tahap, yaitu
 1. Input Video
-2. Ekstrak Frame
-3. Background Subtraction
-4. Sliding Window
-5. Pengukuran Performansi
+<br> Video yang digunakan adalah video orang yang sedang duduk di ruangan kelas dengan resolusi sekitar 720 x 404 pixel.
+2. Background Subtraction
+<br> Background subtraction merupakan algoritma yang digunakan untuk mendeteksi benda bergerak (foreground) dengan cara mengurangi background dengan frame lain.
+3. Sliding Window
+<br> Sliding window merupakan daerah persegi yang bergerak di sekitar citra atau daerah. Setelah didapatkan foreground, window akan begerak di sekitar daerah yang terdeteksi foreground. Setiap langkah window, window akan mengambil potongan citra dan pada potongan citra tersebut akan dilakukan preprocessing, ekstraksi ciri, dan klasifikasi. Bila potongan citra tersebut masuk ke dalam kelas kepala, maka daerah tersebut akan ditandai dengan bounding box.
 
 Hasil deteksi
 <img width="900" alt="CaptureGUIPeopleCounting" src="https://user-images.githubusercontent.com/15353477/64316373-d7b28100-cfde-11e9-9c92-f0539efdf2c9.PNG">
