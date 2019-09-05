@@ -22,4 +22,5 @@ Untuk skema testing itu sendiri terdiri dari beberapa tahap, yaitu
 4. Sliding Window
 5. Pengukuran Performansi
 
-Contoh GUI
+Hasil deteksi
+<img width="900" alt="CaptureGUIPeopleCounting" src="https://user-images.githubusercontent.com/15353477/64316373-d7b28100-cfde-11e9-9c92-f0539efdf2c9.PNG">
